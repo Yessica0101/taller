@@ -6,6 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $telefono = $_POST['telefono'];
     $email = $_POST['email'];
 
+    
     $sql = "INSERT INTO clientes (nombre, telefono, email) VALUES ('$nombre', '$telefono', '$email')";
     if ($conn->query($sql) === TRUE) {
         echo "<p>Cliente registrado con éxito</p>";

@@ -7,6 +7,7 @@ if (!isset($_GET['id'])) {
     exit();
 }
 
+
 $id = $_GET['id'];
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {

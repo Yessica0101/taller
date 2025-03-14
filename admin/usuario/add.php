@@ -2,6 +2,7 @@
 include '../barra.php';
 include 'cnx.php';
 
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $usuario_id = $_POST['usuario_id'];
     $marca = $_POST['marca'];

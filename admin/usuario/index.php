@@ -3,6 +3,7 @@
 include '../barra.php';
 include 'cnx.php';
 
+
 // Fetch vehicles from the database
 $sql = "SELECT v.id_vehiculo, v.marca, v.modelo, v.año, v.vin, u.nombre AS usuario 
         FROM vehiculos v 

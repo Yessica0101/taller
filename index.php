@@ -48,6 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             align-items: center;
             margin: 0;
         }
+        
         .login-container {
             width: 350px;
             padding: 40px;

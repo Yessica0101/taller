@@ -7,6 +7,7 @@ if (!isset($_GET['id'])) {
     exit();
 }
 
+
 $id = $_GET['id'];
 
 $sql = "DELETE FROM vehiculos WHERE id_vehiculo = ?";

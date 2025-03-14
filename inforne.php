@@ -14,6 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 ?>
 
+
 <h2>Generar Informe de Vehículo</h2>
 <form method="post">
     ID Vehículo: <input type="text" name="id_vehiculo" required><br>

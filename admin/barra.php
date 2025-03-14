@@ -6,6 +6,7 @@ if (!isset($_SESSION['admin'])) {
 }
 ?>
 
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
