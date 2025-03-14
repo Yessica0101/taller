@@ -59,6 +59,7 @@ $result = $conn->query($sql);
                     <th>Acciones</th>
                 </tr>
             </thead>
+            
             <tbody>
                 <?php if ($result->num_rows > 0): ?>
                     <?php while($row = $result->fetch_assoc()): ?>
