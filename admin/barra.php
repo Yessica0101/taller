@@ -89,15 +89,15 @@ if (!isset($_SESSION['admin'])) {
             <p>Bienvenido, <?php echo htmlspecialchars($_SESSION['user_name'] ?? 'Administrador'); ?></p>
         </div>
         <ul class="menu">
-            <li><a href="./../admin.php"><i class="fas fa-tachometer-alt"></i> Inicio</a></li>
-            <li><a href="./usuario/index.php"><i class="fas fa-users"></i> Gestión de Usuarios</a></li>
+            <li><a href="/taller/admin/admin.php"><i class="fas fa-tachometer-alt"></i> Inicio</a></li>
+            <li><a href="/taller\admin/usuarios/index.php"><i class="fas fa-users"></i> Gestión de Usuarios</a></li>
             <li><a href="\taller\admin\mecanicos\index.php"><i class="fas fa-wrench"></i> Gestión de Mecánicos</a></li>
-            <li><a href="vehiculos/index.php"><i class="fas fa-car"></i> Gestión de Vehículos</a></li>
-            <li><a href="ordenes.php"><i class="fas fa-clipboard-list"></i> Órdenes de Trabajo</a></li>
-            <li><a href="repuestos.php"><i class="fas fa-cogs"></i> Inventario de Repuestos</a></li>
-            <li><a href="informes.php"><i class="fas fa-chart-bar"></i> Informes</a></li>
-            <li><a href="configuracion.php"><i class="fas fa-cog"></i> Configuración</a></li>
-            <li><a href="logout.php"><i class="fas fa-sign-out-alt"></i> Cerrar Sesión</a></li>
+            <li><a href="/taller\admin/gesVehiculo/index.php"><i class="fas fa-car"></i> Gestión de Vehículos</a></li>
+            <li><a href="\taller\admin\ordenes\index.php"><i class="fas fa-clipboard-list"></i> Órdenes de Trabajo</a></li>
+            <li><a href="\taller\admin\repuestos\index.php"><i class="fas fa-cogs"></i> Inventario de Repuestos</a></li>
+            <li><a href="\taller\admin\informes\index.php"><i class="fas fa-chart-bar"></i> Informes</a></li>
+            <li><a href="\taller\admin\configuracion.php"><i class="fas fa-cog"></i> Configuración</a></li>
+            <li><a href="../logout.php"><i class="fas fa-sign-out-alt"></i> Cerrar Sesión</a></li>
         </ul>
     </div>
 </body>

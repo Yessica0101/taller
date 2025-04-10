@@ -1,9 +1,6 @@
 <?php
 include '../barra.php';
 include 'cnx.php';
-
-
-// Fetch clients from the database
 $sql = "SELECT id_usuario, nombre, email FROM usuario WHERE roles = 'cliente'";
 $result = $conn->query($sql);
 ?>
